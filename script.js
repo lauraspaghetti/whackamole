@@ -1,15 +1,15 @@
 
 ///html elements 
-const square = document.querySelectorAll('.square'); 
-const mole = document.querySelectorAll('.mole'); 
-const timeLeft = document.querySelector('#time-left'); 
+const square        = document.querySelectorAll('.square'); 
+const mole          = document.querySelectorAll('.mole'); 
+const timeLeft      = document.querySelector('#time-left'); 
 console.log(timeLeft); 
 //we use a let to target the score as it will change as we progress on the game
-let score = document.querySelector('#score'); 
+let score           = document.querySelector('#score'); 
 console.log(score.textContent); 
 //initialization of the elements that are displayed on the browser
-let result = 0; 
-let currentTime = timeLeft.textContent; 
+let result          = 0; 
+let currentTime     = timeLeft.textContent; 
 console.log(currentTime); 
 
 ///functions 
@@ -26,7 +26,7 @@ function randomSquare(){
     randomPosition.classList.add('mole');
     //next we asign the random position to hitPosition for us to use later
     // element.id : https://developer.mozilla.org/fr/docs/Web/API/Element/id
-    hitPosition = randomPosition.id; 
+    hitPosition        = randomPosition.id; 
 }
 
 //we now asign an event listener on every square id to be able to know when the user hit the mole
@@ -73,8 +73,7 @@ function countDown(){
 //we set up the countdown 
  let timerId = setInterval(countDown, 1000); 
 
- ///TO DO LIST 
- //Not allowing the mole to spawn in the same square more than 2 times in a row
+ 
  
 
 

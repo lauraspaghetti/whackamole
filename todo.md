@@ -5,7 +5,7 @@
 
 ## Style  
 
-1. Adding a container
-2. Improving the Animal Crossing theme (adding a proper background, recreating the holes Resetti used to appear in)  
-3. Adding an animation for when Resetti spawn on the grid, he shows up as he were emerging from a hole
-4. Adding an animation to highlight the damage Resetti takes
+1. Add a container
+2. Improve the Animal Crossing theme (adding a proper background, recreating the holes Resetti used to appear in)  
+3. Add an animation for when Resetti spawn on the grid, he shows up as he were emerging from a hole
+4. Add an animation to highlight the damage Resetti takes

@@ -1,2 +1,2 @@
 # whackamole
-This is a whack-a-mole mini game, made in Vanilla JS. 
+This is a simple whack-a-mole mini game, made in Vanilla JS. 
